@@ -14,14 +14,10 @@ import base64
 ##########################################################
 
 
-
 KV = '''
 ScreenManager:
 	FirstScreen:
-	ControllScreen:
-	LearnScreen:
-	OpenFileScreen:	
-	KeyLoggerScreen:
+
 		
 <FirstScreen>:
 	name:"FirstScreen"
@@ -84,15 +80,10 @@ class LearnScreen(Screen):
 ############################################################
 sm = ScreenManager()
 
-sm.add_widget(KeyLoggerScreen(name = "loggerscreen"))
 
-sm.add_widget(OpenFileScreen(name = "openfilescreen"))
 
 sm.add_widget(FirstScreen(name = 'FirstScreen'))
 
-sm.add_widget(ControllScreen(name = 'controllscreen'))
-
-sm.add_widget(LearnScreen(name = 'LearnScreen'))
 
 
 ############################################################
