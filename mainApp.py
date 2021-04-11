@@ -66,17 +66,7 @@ ScreenManager:
 class FirstScreen(Screen):
     pass
     
-class ControllScreen(Screen):
-    pass
-    
-class OpenFileScreen(Screen):
-    pass
-    	
-class KeyLoggerScreen(Screen):
-    pass
-    
-class LearnScreen(Screen):
-    pass
+
 ############################################################
 sm = ScreenManager()
 
