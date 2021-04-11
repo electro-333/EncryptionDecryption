@@ -13,8 +13,7 @@ from kivymd.app import MDApp
 import base64
 ##########################################################
 
-#https://www.mediafire.com/file/v5j12ea2g09zxs2/GTA_SAN_2021_BY_ELNAGAR.rar/file
-#102.78.246.221
+
 
 KV = '''
 ScreenManager:
